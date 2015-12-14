@@ -10,4 +10,3 @@ include $(THEOS_MAKE_PATH)/tweak.mk
 SUBPROJECTS += tweakcount2
 include $(THEOS_MAKE_PATH)/aggregate.mk
 
-Conflicts: tweakcount

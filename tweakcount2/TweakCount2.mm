@@ -12,13 +12,13 @@
 	return _specifiers;
 }
 -(void)openPythAlarm {
-    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://therid.github.io/depiction/bluetoothrename/theme.html"]];
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"cydia://package/org.thebigboss.pythalarm"]];
 }
 -(void)openBluetoothDevicesRenamer {
-    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://therid.github.io/depiction/bluetoothrename/theme.html"]];
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"cydia://package/com.alex.bluetoothrename"]];
 }
 -(void)openBluetoothNameInSettings {
-    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://therid.github.io/depiction/bluetoothsnameinsettings/theme.html"]];
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"cydia://package/com.alex.bluetoothname"]];
 }
 -(void)donate {
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VRB72AQ3K4G9N"]];
